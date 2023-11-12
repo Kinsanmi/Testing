@@ -1,0 +1,253 @@
+.center-text{
+    padding: 0px 10%;
+    text-align: center;
+}
+
+.text h4{
+    text-transform: uppercase;
+    color: #5e6282;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+
+.text h2{ 
+    color: #14183e;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 70px;
+}
+
+.cate-pro{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0, 0.2) -4px 9px 25px -6px;
+    padding: 60px 40px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.row img{
+    width: 75px;
+    margin-bottom: 20px;
+   
+}
+
+
+.row h5{
+    color: #1e1d4c;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+
+.row p{
+    color: #5e6282;
+    font-size: 14px;
+     font-weight: 400;
+}
+
+.row:hover{
+    transform: translateY(-8px);
+}
+
+.timer{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+
+
+.dest-text h2{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin: 40px 0px;
+}
+
+.dest-text span{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    align-items: center;
+    gap: 1.8rem;
+    padding: 10px 10%;
+}
+
+.deals{
+    position: relative;
+}
+
+.deals img{
+    width: 400px;
+    transition: all 0.3s ease-in-out;
+}
+
+.deals img:hover{
+    transform: scale(0.97);
+    box-shadow: 0px 0px 4px #ccc;
+}
+
+.deals .sale{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: #fff;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.brand p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.brand h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width:480px){ 
+    .product{
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.8rem;
+        padding: 10px 2%;
+    }
+
+    .dest-text h2 {
+        font-size: 20px;
+        margin: 25px 0px;
+    }
+
+    .dest-text span{
+        font-size: 20px;
+    }
+
+    .brand p{
+        font-size: 13px;
+        margin-bottom:5px;
+    }
+
+    .brand h4{
+        font-size: 14px;
+        margin: 0px 0px;
+    }
+
+    .deals .sale{
+        top: 10px;
+        left: 5px;
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+
+    .text h4{
+        font-size: 14px;
+    }
+
+    .text h2{ 
+        font-size: 25px;
+    }
+    
+    .cate-pro{
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+    }
+    
+    .row {
+        padding: 45px 20px;
+    }
+    
+    .row img{
+        width: 65px;
+        margin-bottom: 15px;
+       
+    }
+    
+    .row h5{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .row p{
+        font-size: 12px;
+    }
+
+    .brand p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+
+}
+
+
+
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button button{
+    padding: 4px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width:403px){
+    .button button {
+        padding: 2px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin-left: 2px;
+    }
+}
