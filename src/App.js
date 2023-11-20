@@ -1,13 +1,12 @@
 import './App.css';
-import {Layout} from './Components/Layout/Layout';
-import {Helmet} from './Components/Helmet/Helmet';
+import { Routers } from './Route/Routers';
+
 
 function App() {
 
   return (
     <>
-    <Layout />
-    <Helmet title='-AirLine'/>
+    <Routers />
     </>
   )
 }
