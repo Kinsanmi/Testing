@@ -1,0 +1,333 @@
+.megaMenu-main{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 2, 2fr;
+    place-content: center;
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+/* h1{
+    font-size: 72px;
+    position: absolute;
+    top: 45%;
+} */
+
+
+
+.mega-inner{
+    height: 600px !important;
+}
+
+.mega ul li{
+    position: relative;
+}
+
+.new-prod{
+    background-color: #00a651;
+    margin: 0 0 0 8px;
+    padding: 2px 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mega ul > li .new-prod a{
+    color: #fff !important;
+    font-size: 12px !important;
+    height: 14px !important;
+    list-style: 14px !important;
+}
+
+.mega-heading{
+    color: rgba( 3,2,26,0.8) !important;
+    font-size: 20px !important;
+}
+
+.submega-main .megaheading .mega-heading-box:last-child{
+    width: 15.2% !important;
+}
+.submega-main .megaheading .mega-heading-box:last-child:hover a#offer-block{
+    border-bottom: transparent;
+}
+
+/* .megaMenu-main .BrandsCategoryHeading a{
+    color: rgba( 3,2,26,0.8);
+}
+.megaMenu-main .BrandsCategoryHeading a:hover{
+    color: #fff !important;
+    background-color: #fc2779;
+} */
+
+.megaMenu-main > ul:before, .megaMenu-main > ul:after{
+    content: '';
+    display: table;
+}
+
+.megaMenu-main > ul:after{
+    clear: both;
+}
+
+.megaMenu-main > ul > li{
+    display: inline-block;
+    /* cursor: pointer; */
+    padding: 0px 11px !important;
+}
+
+.megaMenu-main > ul > li:hover .megaMenu-main > ul > li > a + div.arrowBox{
+    visibility: hidden;
+}
+
+.megaMenu-main > ul > li > ul{
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0 0;
+    position: absolute;
+    z-index: 900;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: -15px 0 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+}
+
+.megaMenu-main ul li.menu-dropdown-icon:hover ul{
+    display: block;
+}
+
+.megaMenu-main > ul > li > li:after{
+    clear: both;
+}
+
+.megaMenu-main > ul > li > ul > li{
+    margin: 0;
+    padding-bottom: 0;
+    width: 100%;
+    background: none;
+    float: left;
+}
+
+.megaMenu-main > ul > li > ul > li > ul:before, .megaMenu-main > ul > li > ul > li > ul:after{
+    container: '';
+    display: table;
+}
+
+.megaMenu-main > ul > li > ul > li > ul:after{
+    clear: both;
+}
+
+.megaMenu-main > ul > li > ul > li > ul > li{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.megaMenu-main > ul > ul > ul > li > ul > li a{
+    border: 0;
+}
+
+.megaMenu-main > ul > li > ul.normal-sub{
+    width: 1140px;
+    padding: 0;
+}
+
+.megaMenu-main > ul > li > ul.normal-sub > li{
+    width: 100%;
+}
+
+
+/* mega link nav hover */
+
+li > a:hover, .megaMenu-main a:hover{
+    color: #d50555;
+    transition: 0.3s ease;
+}
+
+
+
+.megaMenu-main .megaheading .mega-heading a:hover{
+    color: purple;
+}
+
+a.offer-hover:hover{
+    border-bottom: none !important;
+}
+
+a.offer-hover:hover .bodyShadow{
+    display: none !important;
+}
+
+.megaheading{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    height: 50px;
+    line-height: 47px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 0 1px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.megaheading .mega-heading-box{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba( 3,2,26,0.6);
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 3px solid transparent;
+    width: 145px;
+}
+
+.megaheading .current_active{
+    font-weight: 600;
+    border-bottom: 3px solid #fc2779;
+    color: #fc2779;
+}
+
+.mega-heading{
+    height: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.mega-heading a{
+    color-scheme: rgba(3,2,26,0.8);
+}
+
+.mega-inner .mega-heading.margin-top{
+    margin-top: 30px;
+}
+.mega-inner .mega-heading.margin-bottom{
+    margin-bottom: 10px;
+}
+.mega-inner:last-child{
+ border-left: 1px solid rgba( 151,151,151,0.20);   
+}
+
+.mega-inner{
+    width: 216px;
+    height: 500px;
+    float: left;
+    padding: 20px;
+    text-align: left;
+}
+
+.bgwhite{
+    background-color: #fff;
+}
+
+.bggrey{
+    background-color: #fff;
+}
+
+.mega ul > li a{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 2% auto;
+    display: block;
+    color: rgba( 3,2,26,0.6);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.mega > ul{
+    padding: 0;
+}
+
+.submega-main .megaheading  .current_active:last-child{
+    border-bottom: none !important;
+}
+
+.submega-main .megaheading{
+    box-shadow: none !important;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.submega-main .megaheading {
+    position: relative;
+    z-index: 1000;
+    background-color: #fff;
+    width: 82em !important;
+}
+
+.submega-main > ul > li > ul{
+    margin: 0;
+    padding: 0;
+}
+
+.submega-main .megaheading{
+    box-shadow: none !important;
+}
+
+/* direction float of nav */
+
+.submega-main .megaheading .mega-heading-box{
+    width: auto; /* width of nav link */
+    padding: 0;
+    margin: 0;
+    float: left;
+    background-color: red;
+}
+
+.submega-main .megaheading .mega-heading-box:hover > ul {
+    display: block;
+}
+
+/* Link color */
+.submega-main .megaheading .mega-heading-box > a{
+    display: block;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1100;
+    border-bottom: 3px solid transparent;
+    color: rgba(12, 0, 248, 0.6);
+    /* border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc; */
+    transition: 0.3 ease;
+    background-color: green;
+}
+
+.submega-main .megaheading .mega-heading-box > a.current_active, .submega-main .megaheading .mega-heading-box > a:hover{
+    font-weight: 100;
+    color: #fc2779;
+    background-color: #000;
+    transition: 0.5 ease;
+    /* border-bottom: 2px solid #fc2779; */
+}
+
+/* .submega-main .megaheading .mega-heading-box:last-child{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    background-color: yellow;
+} */
+
+.submega-main .megaheading .mega-heading-box a:last-child{
+    padding: 0;
+    font-size: 12px;
+}
+
+.submega-main .megaheading .mega-heading-box:last-child{
+    width: 8.2% !important;
+}
+
+.mega-menu-image{
+    width: 217px;
+    height: auto;
+    margin-left: -21px;
+    margin-top: -19px;
+}
+
+.mega-menu-image img{
+    width: 217px !important;
+    height: auto;
+    object-fit: cover;
+}

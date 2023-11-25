@@ -1,0 +1,75 @@
+
+.end-text{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+    padding: 20px 10%;
+    background-color: #f3f4f6;
+}
+
+.end-text .kumo-text img{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.end-text .kumo-text p{
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.end-text .kumo-text p:hover{
+    color: #ee1c47;
+};
+
+.end-text .kumo-text a{
+    color: #212529;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.3s ease;
+    background-color: red;
+}
+
+.end-text .kumo-text a:hover{
+    color: #ee1c47;
+}
+
+.end-text .context h3{
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.end-text .context a{
+    color: #565656;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.end-text .context a:hover{
+    color: #ee1c47;
+}
+
+.end-text .context p{
+    color: #212529;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.end-text .context p:hover{
+    color: #ee1c47;
+}
